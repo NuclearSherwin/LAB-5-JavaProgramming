@@ -9,7 +9,8 @@ public class Employee extends Person {
 
     // constructor
 
-    public Employee(String name, String address, String phoneNum, String email, String office, double salary, Date hiredDate) {
+    public Employee(String name, String address, String phoneNum,
+                    String email, String office, double salary, Date hiredDate) {
         super(name, address, phoneNum, email);
         this.office = office;
 
